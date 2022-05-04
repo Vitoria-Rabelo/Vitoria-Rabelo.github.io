@@ -1,22 +1,54 @@
-<html>
-    <head>
-        <title>
-            Olá Mundo, eu sou a cabeça!
-        </title>
-    </head>
-    <body>
-        <h1>Hello world!</h1>
-        <h2>Eu sou o corpo</h2>
-    </body>
-</html>
-<ol>
-    <li>item1</li>
-    <li>item2</li>
-    <li>item3</li>
-</ol>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vitória Rabelo CV - Curriculum Vitae</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <main class="resume-contents"></main>
+        <section class="left-section">
+            <section class="left-section-content">
+            <div class="profile">
+                <img class="profile-image" src="data:image/png;base64,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" alt="Profile Image">
+                <p class="name">Vitória Rabelo</p>
+                <p class="profession">Software Engineer</p>
+            </div>
+            <div class="contact-info">
+                <p class="left-title">Contato</p>
+                <ul>
+                    <li><i class="fa fa-phone"></i>+55 11 99999-1111</li>
+                    <li><i class="fa fa-envelope"></i>vitoria@gmail.com</li>
+                    <li><i class="fa fa-globe"></i>www.daniel.com</li>
+                    <li><i class="fa fa-github"></i>Vitoria-Rabelo</li>
+                </ul>
+            </div>
+            <div class="skills">
+                <p class="left-title">Skills</p>
+                <ul>
+                    <li><p>HTML5/CSS</p></li>
+                    <li><p>GitHub</p></li>
+                    <li><p>JavaScript</p></li>
+                    <li><p>React</p></li>
+                    <li><p>Node.JS</p></li>
+                </ul>
+            </div>
+            </section>
+            <section class="right-section">
+                <div class="right-section-contents">
+                    <section class="about gap">
+                        <div class="right-title">About Me</div>
+                        <p class="about-me-contents">
+                            Hello, i'm Vitoria.
+                            <br> A little bit more about what i do
+                            <br> What are my skills
 
-<ul>
-    <li>item1</li>
-    <li>item2</li>
-    <li>item3</li>
-</ul>
+                        </p>
+                    </section>
+                </div>
+            </section>
+
+        </section>
+</body>
+</html>
